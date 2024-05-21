@@ -1,8 +1,9 @@
+import "./Person.css"
 
-
-const Person = () => {
+const Person = (props) => {
   return (
-    <div>Person</div>
+
+    <span>Mi nombre es: {props.name}, mi apellido es: {props.surname} y mi edad es: {props.age} años</span>
   )
 }
 
